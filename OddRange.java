@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class K
+class OddRange
 {
    public static void main(String args[])
    {		
