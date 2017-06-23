@@ -1,14 +1,23 @@
-static boolean isPowerOfTwo(int number){
-boolean isPowerOfTwo = true;
-int reminder = 0;
-while(number > 1){
-reminder = number % 2;
-if(reminder != 0){
-isPowerOfTwo = false;
+import java.io.*;
+import java.util.*;
+public class K
+{
+public static boolean isPt(int no){
+boolean isPt = true;
+int r = 0;
+int num;
+while(num > 1){
+r = num % 2;
+if(r != 0)
+{
+isPt = false;
 break;
-}else{
-number = number / 2;
+}
+else
+{
+no = no / 2;
 }
 }
-return isPowerOfTwo;
+return isPt;
+}
 }
